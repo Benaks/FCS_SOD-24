@@ -15,7 +15,7 @@ import { IdCard } from "./Components/Id/IdCard";
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Home />} />
-    {<ProtectedRoute />}
+
     <Route path="/departments" element={<Departments />} />
     <Route path="/about" element={<About />} />
     <Route path="/id-card" element={<IdCard />} />
