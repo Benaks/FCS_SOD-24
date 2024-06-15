@@ -148,9 +148,11 @@ export const IdCard = () => {
           </div>
         </div>
       </div>
-
+ 
+        <p className="py-10 italic text-[0.8em]  ">*Do well to take a screenshot</p>
+      
       <button
-        className="bg-accent p-2 rounded-md hover:bg-secondary duration-300 ease-in-out text-white"
+        className="bg-accent p-2  rounded-md hover:bg-secondary duration-300 ease-in-out text-white"
         onClick={downloadImage}
       >
         Download ID Card{" "}
