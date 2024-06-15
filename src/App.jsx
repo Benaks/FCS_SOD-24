@@ -1,49 +1,25 @@
 import { useEffect, useState } from "react";
+import "aos/dist/aos.css";
+
 import Background from "./Components/Background/Background";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import QandA from "./Components/QandA/QandA";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import Partners from "./Components/Partners/Partners";
 import Benefits from "./Components/Benefits/Benefits";
 import Principals from "./Components/Principals/Principals";
 import Testimonial from "./Components/Testimonials/Testimonial";
-import axios from "axios";
+import { heroData } from "./utils/data";
+// import Aos from "aos";
 
 const App = () => {
-  // aos init
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
-  let heroData = [
-    {
-      text1: "Manifesting the life of the spirit,",
-      text2:
-        "Embrace the journey of self-discovery and inner peace. Manifesting the life of the spirit means awakening to your true potential, finding harmony within, and living with purpose and mindfulness. Join us in exploring the depths of spiritual growth and enlightenment",
-    },
-    {
-      text1: "Its SOD24",
-      text2:
-        "Prepare for the journey ahead with faith and strength. Equipping men for the future means nurturing a steadfast heart, grounded in the teachings of Christ, ready to face life challenges with courage and wisdom. Join us in ",
-    },
-    {
-      text1: "The outpouring of the spirit",
-      text2:
-        "Experience the transformative power of God love. The outpouring of the Spirit brings renewal, guidance, and an unshakeable faith. Embrace the blessings of the Holy Spirit, allowing it to fill your heart and lead you on a path of divine purpose and spiritual fulfillment.",
-    },
-  ];
-
   const [heroCount, setHeroCount] = useState(0);
   const [playStatus, setPlayStatus] = useState(false);
 
-  useEffect(() => {
-    axios
-      .get("https://sodapi.onrender.com/coupon/2218767042?email=test@gmail.com")
-      .then((response) => console.log(response))
-      .catch((error) => console.log(error));
-  }, []);
+  // aos init
+  // useEffect(() => {
+  //   Aos.init();
+  // }, []);
 
   useEffect(() => {
     setInterval(() => {
@@ -62,8 +38,8 @@ const App = () => {
         setPlayStatus={setPlayStatus}
         heroData={heroData[heroCount]}
         heroCount={heroCount}
-        setHeroCount={setHeroCount}
-        playStatus={playStatus}
+        // setHeroCount={setHeroCount}
+        // playStatus={playStatus}
       />
 
       <Partners />

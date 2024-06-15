@@ -78,9 +78,10 @@ function App() {
       user_surname,
       department,
       image: uploadedURL,
+      coupon,
     };
 
-    // console.log(formData);
+    console.log(formData);
 
     try {
       const response = await fetch(
