@@ -26,7 +26,7 @@ const QandA = () => {
       <div className="bg-white dark:bg-primary dark:text-secondary  my-10">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger>What is the SOD?</AccordionTrigger>
+            <AccordionTrigger>What is SOD?</AccordionTrigger>
             <AccordionContent>
               The School of Destiny is a Christian educational program designed
               to equip individuals with the knowledge, skills, and spiritual
@@ -35,7 +35,7 @@ const QandA = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>Who can enroll in the SOD?</AccordionTrigger>
+            <AccordionTrigger>Who can enroll in SOD?</AccordionTrigger>
             <AccordionContent>
               SOD is open to every and any one to attend regardless of age,
               gender, religion, etc.
@@ -53,7 +53,7 @@ const QandA = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger>How long is the SOD program?</AccordionTrigger>
+            <AccordionTrigger>How long is SOD?</AccordionTrigger>
             <AccordionContent>
               The SOD program will span for 2 weekends
             </AccordionContent>

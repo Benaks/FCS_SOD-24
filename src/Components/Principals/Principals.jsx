@@ -10,7 +10,7 @@ function Principals() {
       <div className="bg-white dark:bg-primary dark:text-white flex flex-col justify-center items-center py-14">
         <p className="font-bold text-accent">INTODUCTION</p>
         <h1 className="text-3xl py-2 font-bold text-secondary">
-          Note from the Principals
+          Note from the DOM's
         </h1>
       </div>
 
@@ -21,7 +21,7 @@ function Principals() {
             <img
               src={Dom1}
               alt=""
-              className="w-[200px] h-[200px] rounded-md shadow-lg z-0 sm:w-[200px]  sm:h-[200px]"
+              className="w-[100px] h-[100px] rounded-md shadow-lg z-0 md:w-[200px] md:h-[200px]"
             />
           </div>
 
@@ -29,7 +29,7 @@ function Principals() {
             <img
               src={Dom2}
               alt=""
-              className=" w-[200px] h-[200px] rounded-md shadow-lg"
+              className=" w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-md shadow-lg"
             />
           </div>
         </div>
