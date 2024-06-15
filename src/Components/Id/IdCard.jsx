@@ -62,19 +62,19 @@ export const IdCard = () => {
 
       <div
         id="divToDownload"
-        className="pattern-wavy pattern-blue-500 pattern-bg-white 
-  pattern-size-8 pattern-opacity-10 bg-gradient-to-r from-blue-100/40 to-cyan-200 w-[500px] h-[300px] my-10 border-2 rounded-md"
+        className="pattern-wavy pattern-blue-500 pattern-bg-white flex flex-col justify-around
+  pattern-size-8 pattern-opacity-10 bg-gradient-to-r from-blue-100/40 to-cyan-200 xs:w-screen mx-1 h-[240px] my-10 border-2 rounded-md"
       >
-        <svg
+        {/* <svg
           className="inline-block fill-current w-full  h-auto text-blue-400/40"
           viewBox="0 0 1440 450"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path d="M1189.2 169.2H421H253.8C159.8 169.2 69.1 203.1 0 262.6V449.8C30.5 349.9 131.3 276.7 252 276.7H424.1h3187.4C1280.9 276.7 1371 243.2 1440 184.3V0C1408.1 97.9 1308.3 169.2 1189.2 169.2Z"></path>
-        </svg>
+        </svg> */}
         {/* header */}
-        <div className="h-[30%]  flex absolute top-10">
-          <div className="w-[25%]  flex justify-center items-center">
+        <div className="h-[30%]  flex flex-row">
+          <div className="w-[25%]  flex flex-row justify-center items-center">
             <img
               src={Logo}
               alt=""
@@ -83,7 +83,7 @@ export const IdCard = () => {
             />
           </div>
           <div className="w-[75%]  flex flex-col justify-center">
-            <h3 className="font-bold text-blue-900">
+            <h3 className="font-bold text-[0.7em] text-blue-900">
               Fellowship of Christian Students
             </h3>
             <p className="text-[0.7em]">
@@ -98,19 +98,19 @@ export const IdCard = () => {
           </div>
         </div>
         {/* details */}
-        <div className="h-[200px] w-[500px] flex flex-row p-5 gap-2  absolute top-36">
-          <div className="w-[35%] h-full bg-gray-100 rounded-lg p-2">
+        <div className=" h-[150px] flex flex-row p-2 gap-1  ">
+          <div className="w-[35%] h-[140px] bg-gray-100 rounded-lg p-2">
             <div className="w-full overflow-hidden">
               <img
                 src={state !== null ? state.data.image : userInfo?.data.image}
                 alt="user_image"
-                className="rounded-xl h-[144px] w-[100%]"
+                className="rounded-xl h-[125px] w-[100%]"
               />
             </div>
           </div>
 
-          <div className="w-[65%] bg-white/40 rounded-md p-2 flex flex-col justify-center gap-4">
-            <div className="font-semibold text-blue-900">DETAILS</div>
+          <div className="w-[65%] bg-gray-100 rounded-md p-2 flex flex-col justify-center ">
+            {/* <div className="font-semibold text-blue-900">DETAILS</div> */}
             <div>
               <h3 className="font-semibold text-gray-900 text-[0.8em] space-x-1">
                 <span className="">FIRSTNAME: </span>
