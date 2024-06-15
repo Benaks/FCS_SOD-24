@@ -8,7 +8,7 @@ function Principals() {
     <div className="bg-white px-[10vw]">
       {/* heading */}
       <div className="bg-white dark:bg-primary dark:text-white flex flex-col justify-center items-center py-14">
-        <p className="font-bold text-accent">INTODUCTION</p>
+        <p className="font-bold text-accent">INTRODUCTION</p>
         <h1 className="text-3xl py-2 font-bold text-secondary">
           Note from the DOM's
         </h1>

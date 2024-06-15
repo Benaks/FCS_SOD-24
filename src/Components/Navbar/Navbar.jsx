@@ -25,8 +25,8 @@ const Navbar = () => {
               <img src={logo} alt="" className='h-12' />
             </div>
             <div className='leading-tight'>
-              <p className='text-accent text-[0.8em]'>Fcs</p>
-              <p className='text-[0.55em]'>Futminna</p>
+              <p className='text-accent text-[0.6em] font-semibold'>FCS HDP</p>
+              <p className='text-[0.54em]'>Futminna</p>
             </div>
           </div>
         </Link>
