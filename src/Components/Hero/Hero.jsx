@@ -1,5 +1,6 @@
 import { GrNext } from "react-icons/gr";
 import { useKindeAuth } from "@kinde-oss/kinde-auth-react";
+import { Link, NavLink } from 'react-router-dom';
 
 import PropTypes from "prop-types";
 
@@ -21,14 +22,21 @@ const Hero = ({
         </div>
 
         {/* button */}
-        <div className="hero-explore  flex bg-secondary dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-5 py-5 gap-2">
+        <div className="flex gap-2 flex-row">
+        <div className="hero-explore  font-semibold  flex bg-secondary dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-2 py-4 gap-2 rounded-l-full hover:bg-accent duration-300 ease-out">
           <button onClick={register} type="button" className=" p-1 text-white">
-            Register NOW and get Id Card
+            Register NOW 
           </button>
-
-          <GrNext />
+       
         </div>
 
+        
+        <NavLink to='/id-card'>
+              <button className='hero-explore  flex bg-accent dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-4 py-5 gap-2  rounded-r-full hover:bg-secondary duration-300 ease-out'>Print ID Card</button>
+            
+          </NavLink>
+
+        </div>
         <div>
           <ul className="hero-dots flex justify-center items-center gap-4">
             <li
