@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import PaystackPayment from "../Paystack/PaystackBtn";
+import PaystackBtn from "../Paystack/PaystackBtn";
 import "./index.css";
 import { deptData } from "@/utils/data";
 import { useDropzone } from "react-dropzone";
@@ -428,7 +428,13 @@ function App() {
                 >
                   Paystack
                 </label>
-                <PaystackPayment />
+                <PaystackBtn
+                user_name={user_name}
+                user_surname={user_surname}
+                email={email}
+                department={department}
+                image={uploadedURL}
+                />
               </div>
               <div className="input-group mb-4">
                 <label

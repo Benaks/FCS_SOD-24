@@ -98,13 +98,13 @@ export const IdCard = () => {
           </div>
         </div>
         {/* details */}
-        <div className="h-[2\18000px] w-[500px] flex flex-row p-5 gap-2  absolute top-36">
+        <div className="h-[200px] w-[500px] flex flex-row p-5 gap-2  absolute top-36">
           <div className="w-[35%] h-full bg-gray-100 rounded-lg p-2">
             <div className="w-full overflow-hidden">
               <img
                 src={state !== null ? state.data.image : userInfo?.data.image}
                 alt="user_image"
-                className="rounded-md"
+                className="rounded-xl h-[144px] w-[100%]"
               />
             </div>
           </div>

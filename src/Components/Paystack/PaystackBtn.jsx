@@ -1,13 +1,30 @@
-// Payment.js
+//PaystackBtn.jsx
 
 import axios from "axios";
+import { toast } from "../ui/use-toast";
+import { useNavigate } from "react-router-dom";
 
-const PaystackBtn = () => {
+
+const PaystackBtn = (
+  {
+    user_name,
+    user_surname,
+    email,
+    department,
+    image
+}
+) => {
+
+  const navigate=useNavigate()
+  //'pk_test_92260f26f205fad022a6188a0897243b0718e486'
+  //'10000'
+  //
   const publicKey = import.meta.env.VITE_PAYSTACK_PUBLIC_KEY;
   const amount = import.meta.env.VITE_PAYSTACK_AMOUNT;
-  const email = import.meta.env.VITE_PAYSTACK_MAIL;
+  //const email = import.meta.env.VITE_PAYSTACK_MAIL;
 
-  const payWithPaystack = () => {
+  const payWithPaystack = (event) => {
+    event.preventDefault();
     const handler = window.PaystackPop.setup({
       key: publicKey,
       email: email,
@@ -25,17 +42,35 @@ const PaystackBtn = () => {
         // after the transaction has been completed
         // make post call to the server to verify payment
         // using transaction reference as post data
+        const formData={
+                'user_name':user_name,
+                'user_surname':user_surname,
+                'email':email,
+                'department':department,
+                'image':image,
+                'reference':response.reference
+        }
         axios
-          .post("/verify.php", { reference: response.reference })
+          .post(`https://sodapi.onrender.com/register?email=${email}&amount=${amount}`, formData)
           .then((res) => {
-            if (res.data.status === "success") {
+            console.log(res)
+            if (res.data.success) {
+              const responseBody=res.data
               // successful transaction
-              alert("Transaction was successful");
+              toast({
+                type: "foreground",
+                title: "Success",
+                description: "Successfully registered",
+                variant: "default",
+              });
+              navigate("/id-card", { state: responseBody });
             } else {
-              // transaction failed
-              alert("Transaction failed");
-            }
-          })
+              toast({
+                type: "background",
+                description: responseBody.message,
+                variant: "destructive",
+              });
+          }})
           .catch((error) => {
             console.error("There was an error!", error);
           });
@@ -61,62 +96,3 @@ const PaystackBtn = () => {
 };
 
 export default PaystackBtn;
-
-// // // PaystackButton.js
-// // import React from 'react';
-// // import { PaystackButton } from 'react-paystack';
-
-// // const PaystackPayment = ({ email, amount, publicKey, onSuccess, onClose }) => {
-// //     const componentProps = {
-// //         email,
-// //         amount, // in kobo (100 kobo = 1 Naira)
-// //         metadata: {
-// //             custom_fields: [
-// //                 {
-// //                     display_name: "Email",
-// //                     variable_name: "email",
-// //                     value: email,
-// //                 },
-// //             ],
-// //         },
-// //         publicKey,
-// //         text: "Pay Now",
-// //         onSuccess,
-// //         onClose,
-// //         className: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-// //     };
-
-// //     return <PaystackButton {...componentProps} />;
-// // };
-
-// // export default PaystackPayment;
-
-// import React, { useState } from 'react';
-// import axios from 'axios';
-
-// const PaystackButton = () => {
-//    const payWithPaystack = () => {
-//     const handler = window.PaystackPop.setup({
-//       key: 'pk_test_235305ce6e45c6dd10d3241ac29e56df75f5536d', // put your public key here
-//       email: 'bemsenakaager2020@mail.com', // put your customer's email here
-//       amount: 370000, // amount the customer is supposed to pay in kobo
-//       metadata: {
-//         custom_fields: [
-//           {
-//             display_name: "Mobile Number",
-//             variable_name: "mobile_number",
-//             value: "+2348012345678" // customer's mobile number
-//           }
-//         ]
-//       },
-
-//     return (
-//         <div>
-//             <button onClick={initializePayment} disabled={paymentLoading}>
-//                 {paymentLoading ? "Processing Payment..." : "Make Payment"}
-//             </button>
-//         </div>
-//     );
-// };
-
-// export default PaystackButton;
