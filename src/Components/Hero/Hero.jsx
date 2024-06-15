@@ -23,7 +23,7 @@ const Hero = ({
         {/* button */}
         <div className="hero-explore  flex bg-secondary dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-5 py-5 gap-2">
           <button onClick={register} type="button" className=" p-1 text-white">
-            Download your Id Card
+            Register NOW and get Id Card
           </button>
 
           <GrNext />

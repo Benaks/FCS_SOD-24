@@ -426,7 +426,7 @@ function App() {
                   htmlFor="paystack"
                   className="block text-sm font-medium mb-2"
                 >
-                  Paystack
+                 Use Paystack
                 </label>
                 <PaystackBtn
                 user_name={user_name}
@@ -441,7 +441,7 @@ function App() {
                   htmlFor="couponid"
                   className="block text-sm font-medium mb-2"
                 >
-                  *Use coupon
+                  *Or coupon
                 </label>
                 <input
                   type="number"
