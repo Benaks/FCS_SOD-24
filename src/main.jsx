@@ -27,7 +27,7 @@ const AppWithAuth = () => (
   <KindeProvider
     clientId="64f09e67efd347bca5a554fd63b53446"
     domain="https://sodwebsite.kinde.com"
-    redirectUri="https://fcs-sod-24.vercel.app/departments"
+    redirectUri="https://fcs-sod-24.vercel.app/id-card"
     logoutUri="https://fcs-sod-24.vercel.app/"
   >
     <AppRoutes />
