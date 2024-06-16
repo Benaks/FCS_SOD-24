@@ -11,17 +11,20 @@ const Hero = ({
   // setPlayStatus,
   // playStatus,
 }) => {
-  const { register } = useKindeAuth();
+  const { register, isAuthenticated } = useKindeAuth();
   return (
     <div className="bg-black/50 h-[100vh] flex justify-center transition ease-in-out">
       <div className="hero my-[120px]   mx-[10vw] mt-[270px] flex flex-col justify-center items-center gap-10">
         {/* text */}
         <div className="hero-text text-white text-5xl sm:text-6xl lg:text-7xl gap-5 text-center">
-          <p>{heroData.text1}</p>
+          <p> {heroData.text1} </p>
           <p className="text-[0.3em] mt-5 md:leading-6  ">{heroData.text2}</p>
         </div>
 
-        {/* button */}
+         {/* button  */}
+
+ 
+
         <div className="flex gap-2 flex-row">
         <div className="hero-explore  font-semibold  flex bg-secondary dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-2 py-4 gap-2 rounded-l-full hover:bg-accent duration-300 ease-out">
         
@@ -32,11 +35,20 @@ const Hero = ({
           </NavLink>
         </div>
 
-        
-        
+          {
+            !isAuthenticated && (
               <button onClick={register}  type="button" className='hero-explore  flex bg-accent dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-4 py-5 gap-2  rounded-r-full hover:bg-secondary duration-300 ease-out'>Print ID Card</button>
+              )
+          }
+
+          {isAuthenticated && (
             
-          
+            <NavLink to='/id-card'>
+              <button  className='hero-explore  flex bg-accent dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-4 py-5 gap-2  rounded-r-full hover:bg-secondary duration-300 ease-out'>Print ID Card</button>
+              </NavLink>
+          )
+
+          }
 
         </div>
         <div>
