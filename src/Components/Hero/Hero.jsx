@@ -24,17 +24,19 @@ const Hero = ({
         {/* button */}
         <div className="flex gap-2 flex-row">
         <div className="hero-explore  font-semibold  flex bg-secondary dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-2 py-4 gap-2 rounded-l-full hover:bg-accent duration-300 ease-out">
-          <button onClick={register} type="button" className=" p-1 text-white">
+        
+            <NavLink to='/departments'>
+            <button  className=" p-1 text-white">
             Register NOW 
-          </button>
-       
+           </button>
+          </NavLink>
         </div>
 
         
-        <NavLink to='/id-card'>
-              <button className='hero-explore  flex bg-accent dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-4 py-5 gap-2  rounded-r-full hover:bg-secondary duration-300 ease-out'>Print ID Card</button>
+        
+              <button onClick={register}  type="button" className='hero-explore  flex bg-accent dark:bg-primary dark:text-secondary cursor-pointer text-white justify-center items-center px-4 py-5 gap-2  rounded-r-full hover:bg-secondary duration-300 ease-out'>Print ID Card</button>
             
-          </NavLink>
+          
 
         </div>
         <div>
