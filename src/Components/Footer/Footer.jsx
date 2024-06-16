@@ -11,7 +11,7 @@ const Footer = () => {
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
         >
-          <span className="text-secondary">Suscribe </span>to our newsletter
+          <span className="text-secondary">Subscribe </span>to our newsletter
           
         </h1>
         
@@ -26,7 +26,7 @@ const Footer = () => {
             className="bg-secondary dark:bg-primary hover:secondary duration-300 px-5 py-2.5 
            rounded-md text-white md:w-auto w-full"
           >
-            Suscribe
+            Subscribe
           </button>
         </div>
           </div>

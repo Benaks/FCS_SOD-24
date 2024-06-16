@@ -8,8 +8,7 @@ const Hero = ({
   heroData,
   setHeroCount,
   heroCount,
-  // setPlayStatus,
-  // playStatus,
+ 
 }) => {
   const { register, isAuthenticated } = useKindeAuth();
   return (
@@ -78,6 +77,5 @@ Hero.propTypes = {
   heroData: PropTypes.object,
   setHeroCount: PropTypes.object,
   heroCount: PropTypes.number,
-  // setPlayStatus: PropTypes.object,
-  // playStatus: PropTypes.boolean,
+
 };
