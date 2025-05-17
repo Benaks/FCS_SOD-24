@@ -38,7 +38,7 @@ const QandA = () => {
             <AccordionTrigger>Who can enroll in SOD?</AccordionTrigger>
             <AccordionContent>
               SOD is open to every and any one to attend regardless of age,
-              gender, religion, etc.
+              gender, denomination and religion  etc.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
@@ -55,7 +55,7 @@ const QandA = () => {
           <AccordionItem value="item-4">
             <AccordionTrigger>How long is SOD?</AccordionTrigger>
             <AccordionContent>
-              The SOD program will span for 2 weekends
+              The SOD program will span for 3 weekends
             </AccordionContent>
           </AccordionItem>
         </Accordion>

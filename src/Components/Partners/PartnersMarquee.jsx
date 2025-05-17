@@ -38,7 +38,7 @@ function PartnersMarquee() {
           <div className='mr-32 flex gap-5'>
                    <FaBookOpenReader className='text-7xl text-gray-500 '/>
                            <div className='flex flex-col font-bold '>
-                                <p className='text-3xl text-secondary'>8</p>
+                                <p className='text-3xl text-secondary'>10</p>
                                 <p className='text-accent'>COURSE CLASSES</p>
                            </div>
           </div>

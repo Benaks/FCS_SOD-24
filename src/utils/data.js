@@ -1,49 +1,58 @@
 export const deptData = [
   {
-    value: "wealth and craftsmanship - WAC",
-    label: "Wealth and Craftsmanship (WAC)",
+    value: "Theology and Apologetics - TAA",
+    label: "Theology and Apologetics (TAA)",
   },
   {
-    value: "doctrinal Dialects and polemics - DDP",
-    label: "Doctrinal Dialects and Polemics (DDP)",
+    value: " Faithful Witnessing - FAW",
+    label: " Faithful Witnessing (FAW)",
   },
   {
-    value: "governance and administration - GAA",
-    label: "Governance and Administration (GAA)",
+    value: "Divinity and The Supernatural - DTS",
+    label: "Divinity and The Supernatural (DTS)",
   },
   {
-    value: "pneumatology and proseuche - PAP",
-    label: "Pneumatology and Proseuche (PAP)",
+    value: "Kingdom Craftsmen - KCR",
+    label: "Kingdom Craftsmen (KCR)",
   },
   {
-    value: "ecclesiology and ecumenism - EAE",
-    label: "Ecclesiology and Ecumenism (EAE)",
+    value: "Purpose and Identity - PAI",
+    label: "Purpose and Identity (PAI)",
   },
   {
-    value: "witnessing and purposeful living - WPL",
-    label: "Witnessing and Purposeful Living (WPL)",
+    value: "Leadership and Dominion - LAD",
+    label: "Leadership and Dominion (LAD)",
   },
-  { value: "kingdom artistry - KA", label: "Kingdom Artistry (KA)" },
+  { value: "Kingdom wealth - KDW", 
+    label: "Kingdom wealth (KDW)" },
   {
-    value: "covenant relationship - CR",
-    label: "Covenant Relationship (CR)",
+    value: "Godly Relationship - GRP",
+    label: "Godly Relationship (GRP)",
+  },
+   {
+    value: " kingdom Scholars - KIS",
+    label: " kingdom Scholars (KIS)",
+  },
+   {
+    value: "General Discussion - GND ",
+    label: "General Discussion (GND) ",
   },
 ];
 
 export const heroData = [
   {
-    text1: "Manifesting the life of the Spirit",
+    text1: "The Light of Life",
     text2:
-      "Embrace the journey of self-discovery and inner peace. Manifesting the life of the Spirit means awakening to your true potential, finding harmony within, and living with purpose and mindfulness. Join us in exploring the depths of spiritual growth and enlightenment",
+      "In a world filled with darkness and confusion, we are called to shine. The Light of Life reveals our purpose—to reflect Christ, illuminate truth, and guide others to God's eternal light.",
   },
   {
-    text1: "Its SOD24",
+    text1: "Its SOD25",
     text2:
       "Prepare for the journey ahead with faith and strength. Equipping men for the future means nurturing a steadfast heart, grounded in the teachings of Christ, ready to face life challenges with courage and wisdom. Join us in ",
   },
   {
-    text1: "The outpouring of the Spirit",
+    text1: "School of Destiny",
     text2:
-      "Experience the transformative power of God love. The outpouring of the Spirit brings renewal, guidance, and an unshakeable faith. Embrace the blessings of the Holy Spirit, allowing it to fill your heart and lead you on a path of divine purpose and spiritual fulfillment.",
+      "Darkness surrounds our world, but Christ—the Light of Life—shines brighter. This theme invites us to be vessels of that light, living with purpose, standing for truth, and becoming divine expressions of Christ in our generation and beyond..",
   },
 ];

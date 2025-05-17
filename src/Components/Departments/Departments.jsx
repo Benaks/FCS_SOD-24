@@ -7,36 +7,46 @@ import DeptImg from "../../assets/pick.jpg";
 const Departments = () => {
   const [cards] = useState([
     {
-      dept: "Wealth and Craftsmanship (WAC)",
-      desc: "Focuses on financial stewardship and enhancing creative skills, integrating them into a holistic approach for effective management.",
+      dept: "Theology and Apologetics (TAA)",
+      desc: "This class explores apologetics, theology, God’s plan, redemption through Christ, living His teachings, correcting errors, and witnessing truth.(Acts 11:26).",
+    },
+
+   {
+      dept: "Faithful Witnessing (FAW)",
+      desc: "As knowledge grows, God’s word is twisted, causing heresies. This class covers Christology, Pneumatology, Apologetics, true witnessing, and evangelism strategies.",
+    },
+      {
+      dept: " Divinity and The Supernatural (DTS)",
+      desc: "n later days, people seek what works. This class will raise disciples grounded in God’s word, spreading Christ’s message with signs (Psalm 110:3).",
+    },
+      {
+      dept: "Kingdom Craftsmen (KCR) ",
+      desc: "This age rejects mediocrity. Creativity and innovation draw men to Christ. This class trains believers to advance the Kingdom and manifest Christ’s life (Exodus 36:1-3).",
+    },
+       {
+      dept: "Purpose and Identity (PAI)",
+      desc: "This class will raise men and women who know their identity in Christ, offering godly counsel with wisdom and integrity (Daniel 5:11-12)..",
     },
     {
-      dept: "Doctrinal Dialects and Polemics (DDP)",
-      desc: "Explores various theological debates, helping students understand and navigate diverse doctrinal expressions within the Christian faith.",
-    },
-    {
-      dept: "Governance and Administration (GAA)",
+      dept: "Leadership and Dominion (LAD)",
       desc: "Teaches key principles of leadership and organizational management, with a specific focus on applications within faith-based contexts.",
     },
     {
-      dept: "Pneumatology and Proseuche (PAP)",
-      desc: "Studies the role of the Holy Spirit and various prayer practices, deepening spiritual understanding and engagement.",
+      dept: "Kingdom wealth (KDW)",
+      desc: "Focuses on financial stewardship and creative skills, integrating both into a holistic approach for effective management (Luke 16:10)",
     },
+   
     {
-      dept: "Ecclesiology and Ecumenism (EAE)",
-      desc: "Examines the structure of the Church and efforts to promote unity among different Christian denominations worldwide.",
-    },
-    {
-      dept: "Witnessing and Purposeful Living (WPL)",
-      desc: "Encourages students to live out their faith through personal testimony and purposeful actions that reflect Christian values.",
-    },
-    {
-      dept: "Kingdom Artistry (KA)",
-      desc: "Promotes the use of artistic expressions, such as music and visual arts, to glorify and expand God’s Kingdom.",
-    },
-    {
-      dept: "Covenant Relationship (CR)",
+      dept: "Godly Relationship (GRP)",
       desc: "Investigates the significance and dynamics of covenant relationships, emphasizing their role and importance within the Christian faith.",
+    },
+    {
+      dept: "kingdom Scholars (KIS)",
+      desc: "Though often overlooked, education shapes society. Despite corruption and apathy, God is raising academic giants to impact lives, character, and societal relevance.",
+    },
+      {
+      dept: "General Discussion (GND) ",
+      desc: "This class equips believers with ethics and life skills to relate well with others, influencing the world without compromise (Colossians 4:5-6).",
     },
   ]);
 
