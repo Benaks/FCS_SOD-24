@@ -33,10 +33,10 @@ export const deptData = [
     value: " kingdom Scholars - KIS",
     label: " kingdom Scholars (KIS)",
   },
-   {
+  /* {
     value: "General Discussion - GND ",
     label: "General Discussion (GND) ",
-  },
+  },*/
 ];
 
 export const heroData = [

@@ -41,7 +41,7 @@ function Principals() {
 
           <div className="w-[95%]">
             <h1 className="text-[1.3em]  text-secondary font-bold">
-              Welcome to SOD 2024: "Manifesting the Life of the Spirit."
+              Welcome to SOD 2025: "The Light of Life."
             </h1>
             <p className="text-[0.8em] lg:text-[1em]">
               {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid error blanditiis in placeat sed assumenda ut adipisci ipsa quidem deserunt.

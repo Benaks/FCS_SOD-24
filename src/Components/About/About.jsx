@@ -8,7 +8,7 @@ const About = () => {
       <div className="bg-white dark:bg-primary dark:text-white flex flex-col justify-center items-center py-10 md:py-14">
         <p className="font-bold text-accent">ABOUT</p>
         <h1 className="text-2xl md:text-3xl py-2 font-bold text-secondary">
-          About SOD{"'"}24
+          About SOD{"'"}25
         </h1>
       </div>
 
@@ -28,7 +28,7 @@ const About = () => {
               Vision & Mission
             </h1>
             <p className="text-[0.8em] md:text-[0.9em]">
-              This year{"'"}s SOD 2024 program is dedicated to nurturing
+              This year{"'"}s SOD 2025 program is dedicated to nurturing
               believers with the wisdom and life of God, enabling them to
               represent Him effectively in this world. As disciples of Christ,
               we understand that while we live in this world, <br />
@@ -53,7 +53,7 @@ const About = () => {
               We address various aspects of life, including purpose, ensuring
               that each believer is ready to manifest God{"'"}s wisdom and life
               in every situation. This mission is carried out under the guidance
-              and empowerment of the Holy Spirit. Join us in SOD 2024 as we
+              and empowerment of the Holy Spirit. Join us in SOD 2025 as we
               embark on a journey of spiritual growth and empowerment. <br />{" "}
               Together, we will explore the depths of God’s Word, aiming to
               understand and apply its truths to our lives. Welcome to a

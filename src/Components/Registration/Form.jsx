@@ -223,7 +223,8 @@ function App() {
                   value={user_name}
                   onChange={(e) => setUser_name(e.target.value)}
                   className="mt-1 p-2 border border-gray-300 rounded w-full"
-                />
+                  required
+               />
               </div>
               <div className="input-group mb-4">
                 <label
@@ -239,6 +240,7 @@ function App() {
                   value={user_surname}
                   onChange={(e) => setUser_surname(e.target.value)}
                   className="mt-1 p-2 border border-gray-300 rounded w-full"
+                  required
                 />
               </div>
               <div className="text-right">
@@ -275,6 +277,7 @@ function App() {
                     setEmail(e.target.value);
                   }}
                   className="mt-1 p-2 border border-gray-300 rounded w-full "
+                  required
                 />
               </div>
               <div className="input-group mb-4">
@@ -450,6 +453,7 @@ function App() {
                   value={coupon}
                   onChange={(e) => setCoupon(e.target.value)}
                   className="mt-1 p-2 border border-gray-300 rounded w-full"
+                  required
                 />
               </div>
               <div className="flex justify-between">
