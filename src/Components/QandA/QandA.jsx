@@ -44,12 +44,17 @@ const QandA = () => {
           <AccordionItem value="item-3">
             <AccordionTrigger>What courses are offered?</AccordionTrigger>
             <AccordionContent>
-              This years SOD comprises of 8 class and the General Discusssion
-              class, They are as follows; Wealth and Craftsmanship (WAC),
-              Doctrinal Dialects and Polemics (DDP), Governance and
-              Administration (GAA), Pneumatology and Proseuche (PAP), Witnessing
-              and Purposeful Living (WPL), Kingdom Artistry (KA), Covenant
-              Relationship (CR), Ecclesiology and Ecumenism (EAE)
+              This years SOD comprises of 10 class and the General Discusssion
+              class, They are as follows; 
+              Theology and Apologetics (TAA),
+              Faithful Witnessing (FAW), 
+               Divinity and The Supernatural (DTS),
+               Purpose And Identity (PAI), 
+               Leadership and Dominion (LAD), 
+               Kingdom Wealth (KDW), 
+               Godly Relationship (GRP),
+               Kingdom Scholars (KIS),
+               Kingdom Craftsmen (KCR)
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
