@@ -1,5 +1,5 @@
 import React from "react";
-import Dom1 from "./img/Daniel.jpg";
+import Dom1 from "./img/Jonathan.jpg";
 import Dom2 from "./img/Elvis.jpg";
 import { PiCertificateBold } from "react-icons/pi";
 import { FaQuoteLeft } from "react-icons/fa";
