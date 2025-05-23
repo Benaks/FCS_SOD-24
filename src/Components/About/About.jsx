@@ -28,38 +28,35 @@ const About = () => {
               Vision & Mission
             </h1>
             <p className="text-[0.8em] md:text-[0.9em]">
-              This year{"'"}s SOD 2025 program is dedicated to nurturing
-              believers with the wisdom and life of God, enabling them to
-              represent Him effectively in this world. As disciples of Christ,
-              we understand that while we live in this world, <br />
-              <br /> we are not of it. This truth shapes our belief that
-              anything derived solely from this world—be it culture, mindsets,
-              systems, ideologies, beliefs, or principles—cannot be our
-              standard. Instead, we follow the divine blueprint for holy living
-              given by God. Our core principle is rooted in the words of Jesus:{" "}
-              {'"'}Man shall not live by bread alone, but by every word that
-              proceeds from the mouth of God{'"'} (Matthew 4:4). <br />
-              The Word of God is the foundation of all creation, guiding our
-              actions and decisions to ensure we live in a way that honors Him.
-              From an early age, we are taught the importance of the Holy
-              Scriptures, as stated in 2 Timothy 3:15-17: {'"'}And that from
-              childhood you have known the Holy Scriptures, which are able to
-              make you wise for salvation through faith which is in Christ
-              Jesus. All Scripture is given by inspiration of God, and is
-              profitable for doctrine, for reproof, for correction, for
-              instruction in righteousness, that the man of God may be complete,
-              thoroughly equipped for every good work.{'"'} The mission of SOD
-              2024 is to thoroughly equip believers with God{"'"}s Word. <br />{" "}
-              We address various aspects of life, including purpose, ensuring
-              that each believer is ready to manifest God{"'"}s wisdom and life
-              in every situation. This mission is carried out under the guidance
-              and empowerment of the Holy Spirit. Join us in SOD 2025 as we
-              embark on a journey of spiritual growth and empowerment. <br />{" "}
-              Together, we will explore the depths of God’s Word, aiming to
-              understand and apply its truths to our lives. Welcome to a
-              transformative program where we endeavor to reflect the wisdom and
-              life of God in all that we do.
+              "And because iniquity shall abound, the love of many shall wax cold" (Matthew 24:12). <br />
+              <br /> We've come to a season of the latter days that Jesus Christ spoke of — a season where people no longer see the need to follow Christ, and where Godly activities no longer make sense to many (2 Timothy 3:1–5). It is a season where the first are becoming the last; a time when love for God is no longer in the hearts of men.<br />
+              What a dangerous season we find ourselves in! <br />
+              Because of this, God wants to raise men and women who will have a personal and genuine walk with Him — individuals who will know God personally and truly live out this God-life we received at salvation. These people will interact so much with God, that the very essence of their lives would be Christ.
+               <br />
+               It is then that their lives would become the light that other men would see, and be drawn to God (Matthew 5:16).
+                <br />
+            </p> <br />
+              <h1 className="text-[1.1em] md:text-[1.3em] text-secondary font-bold">
+              Vision for SOD 2025
+            </h1>
+             <p className="text-[0.8em] md:text-[0.9em]">To build a people whose lives (in their various fields) would become the light that men would see and be drawn to Christ.</p><br />
+          
+          
+             <h1 className="text-[1.1em] md:text-[1.3em] text-secondary font-bold">
+              Objectives of SOD 2025
+            </h1>
+            <p className="text-[0.8em] md:text-[0.9em]">
+                   1. To equip believers with Bible-based teachings — believers who will intentionally know God on a personal basis, and whose private lives will be dedicated and burning for God. <br />
+
+                   2. To raise burning disciples who are ready to shine by raising other disciples and strategically eradicating darkness. <br />
+
+                   3. To raise disciples who will know God, be His mouthpiece, and faithfully deliver His mandate in government, media, and in all spheres of influence. <br />
+
+                   4. To raise disciples who will be sound in the knowledge of God’s Word and able to strategically spread the Good News of Christ to the universe through the workings of signs and wonders. <br />
+
+                   5. To raise disciples who will use their financial influence and family life to display Christ to the world. <br />
             </p>
+          
           </div>
         </div>
       </div>
