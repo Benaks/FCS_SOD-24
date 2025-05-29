@@ -1,7 +1,7 @@
 import React from 'react';
 import Nenrot from './img/NentorIMG.jpg'
-import Enoch from './img/EnochIMG.jpg'
-import PromiseA from './img/PromiseIMG.jpg'
+import John from './img/John.jpg'
+import Atu from './img/Atu.jpeg'
 import Daodu from './img/DaoduIMG.jpg'
 const testimonials = [
     {
@@ -11,16 +11,16 @@ const testimonials = [
       testimony: 'SOD Class of intimacy and supernatural nurtured my mind, body, and spirit, reigniting my passion for life and deepening my spiritual connection.',
     },
     {
-      image: PromiseA,
-      name: 'Promise Amma',
+      image: Atu,
+      name: 'Mary Atu',
       level: '300L',
-      testimony: 'Attending SOD has deepened my understanding of my life’s purpose and faith, truly preparing me for my destiny.',
+      testimony: 'SOD brought me clarity, healing, grace, and hope. God’s word settled family issues and revived my purpose through impartation.',
     },
     {
-      image:Enoch,
-      name: 'Oladeji Enoch Victor',
+      image:John,
+      name: 'John Miracle Osezua',
       level: '400L',
-      testimony: 'SOD refined my mind towards the concept of ethics, communication, purpose, finance and spirituality. It exposed me holistically about life.',
+      testimony: 'SOD has transformed me through Spirit-led teachings, shaping my decisions, empowering boldness, clarity, vision, and building me spiritually.',
     },
     {
       image:Nenrot,
