@@ -16,8 +16,8 @@ const Benefits = () => {
           </div>
 
           {/* benefits */}
-          <div className=" flex flex-col flex-wrap lg:flex-nowrap gap-10 md:flex-row">
-            <div className="bg-primary/40 rounded-lg shadow-md flex p-4 lg:p-10 hover:scale-105 duration-200 gap-4 ">
+          <div className=" flex flex-col flex-wrap md:flex-row gap-4">
+            <div className="bg-primary/40 rounded-lg shadow-md flex p-4 lg:p-10 hover:scale-105 duration-200 gap-4">
               <div className=" flex justify-center ">
                 <FaHandsHelping className="text-2xl text-accent " />
               </div>
@@ -56,7 +56,7 @@ const Benefits = () => {
             </div>
 
             <div className="bg-primary/40 rounded-lg shadow-md flex p-4 lg:p-10 hover:scale-105 duration-200 gap-4 ">
-              <div className=" flex justify-center ">
+              <div className=" flex justify-center">
                 <PiCertificateBold className="text-2xl text-accent " />
               </div>
 

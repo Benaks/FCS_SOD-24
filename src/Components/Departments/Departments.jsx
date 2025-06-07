@@ -44,10 +44,10 @@ const Departments = () => {
       dept: "kingdom Scholars (KIS)",
       desc: "Though often overlooked, education shapes society. Despite corruption and apathy, God is raising academic giants to impact lives, character, and societal relevance.",
     },
-      {
-      dept: "General Discussion (GND) ",
-      desc: "This class equips believers with ethics and life skills to relate well with others, influencing the world without compromise (Colossians 4:5-6).",
-    },
+    //   {
+    //   dept: "General Discussion (GND) ",
+    //   desc: "This class equips believers with ethics and life skills to relate well with others, influencing the world without compromise (Colossians 4:5-6).",
+    // },
   ]);
 
   return (

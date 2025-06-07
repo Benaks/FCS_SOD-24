@@ -3,32 +3,38 @@ import Nenrot from './img/NentorIMG.jpg'
 import John from './img/John.jpg'
 import Atu from './img/Atu.jpeg'
 import Daodu from './img/DaoduIMG.jpg'
+import Zion from './img/zion_charles.jpg'
+import Onoja from './img/onoja_divine.jpg'
 const testimonials = [
-    {
-      image: Daodu,
-      name: 'Michael Daodu',
-      level: '300L',
-      testimony: 'SOD Class of intimacy and supernatural nurtured my mind, body, and spirit, reigniting my passion for life and deepening my spiritual connection.',
-    },
-    {
-      image: Atu,
-      name: 'Mary Atu',
-      level: '300L',
-      testimony: 'SOD brought me clarity, healing, grace, and hope. God’s word settled family issues and revived my purpose through impartation.',
-    },
-    {
-      image:John,
-      name: 'John Miracle Osezua',
-      level: '400L',
-      testimony: 'SOD has transformed me through Spirit-led teachings, shaping my decisions, empowering boldness, clarity, vision, and building me spiritually.',
-    },
-    {
-      image:Nenrot,
-      name: 'Msugh Favour Nenrot',
-      level: 'Alumni',
-      testimony: 'From 100 to 500 level, each SOD class reshaped my thoughts, aligning with my life seasons, fostering intentional learning and growth.',
-    },
-  ];
+  {
+    image: Daodu,
+    name: "Michael Daodu",
+    level: "300L",
+    testimony:
+      "SOD Class of intimacy and supernatural nurtured my mind, body, and spirit, reigniting my passion for life and deepening my spiritual connection.",
+  },
+  {
+    image: Atu,
+    name: "Mary Atu",
+    level: "300L",
+    testimony:
+      "SOD brought me clarity, healing, grace, and hope. God’s word settled family issues and revived my purpose through impartation.",
+  },
+  {
+    image: John,
+    name: "John Miracle Osezua",
+    level: "400L",
+    testimony:
+      "SOD has transformed me through Spirit-led teachings, shaping my decisions, empowering boldness, clarity, vision, and building me spiritually.",
+  },
+  {
+    image: Zion,
+    name: "Zion Charles",
+    level: "500L",
+    testimony:
+      'In 2021, the "Kingdom Identity and Relevance" class at SOD transformed my life by revealing my true identity in Christ, deepening my faith, and setting me on a purposeful path.',
+  },
+];
 
 const Testimonial = () => {
   return (
