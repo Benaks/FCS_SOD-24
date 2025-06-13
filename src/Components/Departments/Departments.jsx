@@ -79,7 +79,7 @@ const Departments = () => {
               {card.dept}
             </h1>
             <p className="my-4">{card.desc}</p>
-            <Link to="/register">
+            <Link to="/registrars">
               <button className="bg-accent text-white p-2 rounded-md hover:bg-secondary duration-300 hover:ease-in-out">
                 Register
               </button>

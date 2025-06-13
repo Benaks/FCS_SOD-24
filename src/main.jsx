@@ -5,6 +5,7 @@ import { KindeProvider } from "@kinde-oss/kinde-auth-react";
 import "./index.css";
 import Layout from "./Components/Layout.jsx";
 import About from "./Components/About/About.jsx";
+import App from "./Components/Registration/Form";
 import RegisterForm from "./Components/Registration/Form2.jsx";
 import RegistrarContact from "./Components/Registration/Page.jsx";
 import Home from "./Components/Home/Home.jsx";
@@ -19,7 +20,7 @@ const AppRoutes = () => (
     <Route path="/departments" element={<Departments />} />
     <Route path="/about" element={<About />} />
     <Route path="/id-card" element={<IdCard />} />
-    <Route path="/register" element={<RegisterForm />} />
+    <Route path="/register" element={<App />} />
     <Route path="/registrars" element={<RegistrarContact />} />
   </Routes>
 );

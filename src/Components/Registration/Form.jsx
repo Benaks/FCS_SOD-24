@@ -421,10 +421,10 @@ function App() {
             <div className="form-step">
               <div>
                 <p className="font-bold text-accent text-center pb-4">
-                  Payment
+                  Insert 10 digits Coupon
                 </p>
               </div>
-              <div className="input-group mb-4">
+              {/* <div className="input-group mb-4">
                 <label
                   htmlFor="paystack"
                   className="block text-sm font-medium mb-2"
@@ -438,13 +438,13 @@ function App() {
                 department={department}
                 image={uploadedURL}
                 />
-              </div>
+              </div> */}
               <div className="input-group mb-4">
                 <label
                   htmlFor="couponid"
                   className="block text-sm font-medium mb-2"
                 >
-                  *Or coupon
+                coupon code
                 </label>
                 <input
                   type="number"
@@ -453,6 +453,7 @@ function App() {
                   value={coupon}
                   onChange={(e) => setCoupon(e.target.value)}
                   className="mt-1 p-2 border border-gray-300 rounded w-full"
+                  placeholder="012 3456 789"
                   required
                 />
               </div>

@@ -90,10 +90,10 @@ export const IdCard = () => {
               Federal University of Technology Minna
             </p>
             <p className="text-[0.9em] font-bold text-green-600">
-              School of Destiny (SOD) 2024
+              School of Destiny (SOD) 2025
             </p>
             <p className="italic text-[0.5em] font-semibold">
-              (Manifesting the Life of the Spirit)
+              (The Light of Life)
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ export const IdCard = () => {
               <img
                 src={state !== null ? state.data.image : userInfo?.data.image}
                 alt="user_image"
-                className="rounded-xl h-[125px] w-[100%]"
+                className="rounded-xl h-[125px] w-full object-cover"
               />
             </div>
           </div>

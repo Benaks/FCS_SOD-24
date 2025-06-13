@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React from "react";
 
 const registrars = {
   GK: [
@@ -12,38 +12,8 @@ const registrars = {
 };
 
 const RegistrarContact = () => {
-  const [user, setUser] = useState(null);
-
-  useEffect(() => {
-    const data = localStorage.getItem("sodUser");
-    if (data) {
-      try {
-        const parsed = JSON.parse(data);
-        setUser(parsed);
-        console.log("Loaded user:", parsed); // 🐞 Debug
-      } catch (err) {
-        console.error("Failed to parse user data", err);
-      }
-    } else {
-      console.warn("No sodUser data in localStorage");
-    }
-  }, []);
-
-  if (!user) {
-    return (
-      <div className="p-6 text-center text-red-500 font-semibold">
-        No registration data found. Please register first.
-      </div>
-    );
-  }
-
-  const message = `Hello, I just registered for SOD 2025.
-
-Name: ${user.name}
-Phone: ${user.phone}
-Department: ${user.department}
-Level: ${user.level}
-Chosen Class: ${user.chosenClass}`;
+  const message =
+    "Hello! My name is ______. I want to purchase a token for SOD registration";
 
   const linkGen = (phone) =>
     `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
