@@ -78,7 +78,7 @@ const Benefits = () => {
 
       <div className="my-10 flex items-center justify-center">
         <NavLink to="/departments">
-          <button className="bg-accent p-2 rounded-md text-white hover:bg-secondary">
+          <button className="bg-accent p-4 rounded-md text-white hover:bg-secondary">
             Enroll Now
           </button>
         </NavLink>
