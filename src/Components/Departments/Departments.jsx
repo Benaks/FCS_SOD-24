@@ -11,19 +11,19 @@ const Departments = () => {
       desc: "This class explores apologetics, theology, God’s plan, redemption through Christ, living His teachings, correcting errors, and witnessing truth.(Acts 11:26).",
     },
 
-   {
+    {
       dept: "Faithful Witnessing (FAW)",
       desc: "As knowledge grows, God’s word is twisted, causing heresies. This class covers Christology, Pneumatology, Apologetics, true witnessing, and evangelism strategies.",
     },
-      {
+    {
       dept: " Divinity and The Supernatural (DTS)",
       desc: "n later days, people seek what works. This class will raise disciples grounded in God’s word, spreading Christ’s message with signs (Psalm 110:3).",
     },
-      {
+    {
       dept: "Kingdom Craftsmen (KCR) ",
       desc: "This age rejects mediocrity. Creativity and innovation draw men to Christ. This class trains believers to advance the Kingdom and manifest Christ’s life (Exodus 36:1-3).",
     },
-       {
+    {
       dept: "Purpose and Identity (PAI)",
       desc: "This class will raise men and women who know their identity in Christ, offering godly counsel with wisdom and integrity (Daniel 5:11-12)..",
     },
@@ -35,7 +35,7 @@ const Departments = () => {
       dept: "Kingdom wealth (KDW)",
       desc: "Focuses on financial stewardship and creative skills, integrating both into a holistic approach for effective management (Luke 16:10)",
     },
-   
+
     {
       dept: "Godly Relationship (GRP)",
       desc: "Investigates the significance and dynamics of covenant relationships, emphasizing their role and importance within the Christian faith.",
@@ -79,7 +79,8 @@ const Departments = () => {
               {card.dept}
             </h1>
             <p className="my-4">{card.desc}</p>
-            <Link to="/registrars">
+
+            <Link to="/register">
               <button className="bg-accent text-white p-2 rounded-md hover:bg-secondary duration-300 hover:ease-in-out">
                 Register
               </button>

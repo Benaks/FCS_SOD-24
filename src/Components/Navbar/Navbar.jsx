@@ -88,7 +88,7 @@ const Navbar = () => {
           {/* Register */}
           <li className="md:ml-8 md:my-0 my-7 font-semibold">
             <NavLink
-              to="/registrars"
+              to="/register"
               className={({ isActive }) =>
                 `text-accent ${isActive ? "text-secondary" : "text-accent"}`
               }
