@@ -1,6 +1,7 @@
 import { PiCertificateBold } from "react-icons/pi";
 import { FaHandsHelping } from "react-icons/fa";
 import { AiOutlineRise } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 const Benefits = () => {
   return (
     <div className="bg-white py-20 px-[2vw] lg:px-[10vw]">
@@ -73,6 +74,14 @@ const Benefits = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="my-10 flex items-center justify-center">
+        <NavLink to="/departments">
+          <button className="bg-accent p-2 rounded-md text-white hover:bg-secondary">
+            Enroll Now
+          </button>
+        </NavLink>
       </div>
     </div>
   );

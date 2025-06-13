@@ -40,10 +40,10 @@ function Principals() {
           </div>
 
           <div className="w-[95%]">
-            <h1 className="text-[1.3em]  text-secondary font-bold">
+            <h1 className="text-[1.3em]  text-secondary font-bold my-2">
               Welcome to SOD 2025: "The Light of Life."
             </h1>
-            <p className="text-[0.8em] lg:text-[1em]">
+            <p className="text-[0.8em] lg:text-[1em] leading-loose">
               In as much as we walk in this world, we are not of this world, and
               by implication that means anything that finds it's origin or
               source in this world alone is not a standard by which we as
@@ -69,7 +69,7 @@ function Principals() {
               believer and different areas of living, including purpose unto the
               end that the believer manifests the wisdom and life of God
               wherever he or she is found, and this we would do by the Help of
-              the Holy Ghost. <br /> WELCOME TO SOD 2024 . <br />
+              the Holy Ghost. <br /> WELCOME TO SOD 2025 . <br />
               THE DIRECTORS OF MINISTRY.
             </p>
           </div>
