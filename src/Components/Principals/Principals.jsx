@@ -21,7 +21,7 @@ function Principals() {
             <img
               src={Dom1}
               alt=""
-              className="w-[100px] h-[100px] rounded-md shadow-lg z-0 md:w-[200px] md:h-[200px]"
+              className="w-[200px] h-[165px] rounded-md shadow-lg z-0 md:w-[200px] md:h-[200px]"
             />
           </div>
 
@@ -29,7 +29,7 @@ function Principals() {
             <img
               src={Dom2}
               alt=""
-              className=" w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-md shadow-lg"
+              className=" w-[200px] h-[165px] md:w-[200px] md:h-[200px] rounded-md shadow-lg"
             />
           </div>
         </div>
@@ -43,34 +43,36 @@ function Principals() {
             <h1 className="text-[1.3em]  text-secondary font-bold my-2">
               Welcome to SOD 2025: "The Light of Life."
             </h1>
-            <p className="text-[0.8em] lg:text-[1em] leading-loose">
-              In as much as we walk in this world, we are not of this world, and
-              by implication that means anything that finds it's origin or
-              source in this world alone is not a standard by which we as
-              believers should live, be it culture,mindsets, systems,
-              ideologies, beliefs, principles- if it is not in accordance with
-              the designated template for holy living, then it against God and
-              Godliness. <br /> <br /> God however did not live us in the dark
-              as to how we ought to live and where we can find this instructions
-              for Godly living-"man shall not live by bread alone but by EVERY
-              WORD THAT PROCEEDS FROM THE MOUTH OF GOD".(Mathew 4:4)- his very
-              own word, without which nothing that was made would have been made
-              is that designated template that guides our actions and decisions
-              to ensure our effective representation of him in this world. "And
-              that from childhood you have known the Holy Scriptures, which are
-              able to make you WISE for salvation through faith which is in
-              Christ Jesus. <br />
-              <br /> All Scripture is given by inspiration of God,
-              and is profitable for doctrine, for reproof, for correction, for
-              instruction in righteousness, THAT THE MAN OF GOD MAY BE COMPLETE,
-              THOROUGHLY EQUIPPED FOR EVERY GOOD WORK".(2 Timothy 3:15-17)-
-              Thorough equipping by the Word of God is what we seek to do in
-              this years SOD, regarding things pertaining to God and the
-              believer and different areas of living, including purpose unto the
-              end that the believer manifests the wisdom and life of God
-              wherever he or she is found, and this we would do by the Help of
-              the Holy Ghost. <br /> WELCOME TO SOD 2025 . <br />
-              THE DIRECTORS OF MINISTRY.
+            <p className="text-[md] lg:text-[1em] leading-loose">
+              <i>
+                {" "} <br />
+                "And because iniquity shall abound, the love of many shall wax
+                cold"
+              </i>
+              <br /> <i>(Matthew 24:12).</i> <br /> <br />
+              We've come to a season of the latter days that Jesus Christ spoke
+              of: a season when people no longer see the need to follow Christ,
+              and when godly activities no longer make sense to many (2 Timothy
+              3:1-5). It is a season where the first are becoming the last; a
+              time when love for God is no longer in the hearts of men. What a
+              dangerous season we find ourselves in! <br /> <br /> Because of this, God
+              proposed in his heart to rise for the rescue of his people whom he
+              has bought with the price of the blood of His beloved son, Jesus
+              Christ. He stood steadfastly and his hand wrought out salvation by
+              himself (Isaiah 59:15-16). Just to ensure His people get saved. <br /> <br />
+              The School of Destiny 2025 tagged THE LIGHT OF LIFE, is a medium
+              where God would be using to raise men and women who will have a
+              personal and genuine walk with Him; individuals who will know God
+              personally and truly live out this God-life we received at
+              salvation. These people will interact so much with God, that the
+              very essence of their lives would be Christ. It is then that their
+              lives would become the light that other men would see and be drawn
+              to God (Mathew 5:16). <br /> <br /> Prepare for a transformational journey; one
+              that will deepen your faith, embolden your confidence in Christ,
+              and ignite an unquenchable passion to fulfill His will. <br /> <br /> You
+              are welcome to SOD 2025, The Light of Life! <br /> <br /> Directors of
+              Ministry. <br /> Adanu Daniel Kedenojo (Main Campus) <br />
+              Jonathan Iyanuoluwa Adediji (Bosso Campus)
             </p>
           </div>
         </div>
